@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riley's Projects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Coding Projects</h1>
+
+
+    <!-- Menu Bar with Dropdowns -->
+    <div class="menu-bar">
+      <!-- Home Page Button -->
+      <a href="index.html" class="menu-button">Home</a>
+
+      <!-- Projects Dropdown -->
+      <div class="dropdown">
+        <a href="projects.html" class="menu-button">Projects</a>
+        <div class="dropdown-content">
+          <a href="projects.html#School-Projects" class="menu-button">School</a>
+          <a href="projects.html#Extra-Curricular-Projects" class="menu-button">Extra Curricular</a>
+          <a href="projects.html#Personal-Projects" class="menu-button">Personal</a>
+        </div>
+      </div>
+
+      <!-- Tutorials Button -->
+      <a href="tutorials.html" class="menu-button">Tutorials</a>
+
+      <hr><br>
+    </div>
+
+
+    <!-- School Projects -->
+    <h2 id="School-Projects"> School Projects </h2>
+    <p>For the integrity of the classes that provide these projects as homework,
+      I won't provide any code or in depth solutions</p>
+
+    <div class="info-block">
+      <h2>Spam Email Filter Using Bayes' Theorem (Fall 2023)</h2>
+      <p>
+        For a Machine Learning class assignment I was instructed to make a Bayesian filter
+        to detect spam emails from normal emails. This worked by tokenizing each word in a
+        given email, and then checking a dataset of spam and clean emails for the amount
+        of times the word was used in each category. Bayes' Theorem could then be used to calculate
+        the probability that the email is spam by looking at the prevalence of all words in
+        both categories.
+      </p>
+      <p>
+        As an example: if an email has the phrase "Click this link", each word ("Click", "This", "Link") will be
+        searched for in the email database and there will be a count for each time the word appears in the spam list,
+        as well as in the clean email list. This will be done for each word until every word has an associated
+        probability of spam. ("Click": 67%, "This": 37%, "Link": 82%) After scanning every word in the email, if the
+        probability of spam is above a certain threshold, the email will be marked as spam.
+      </p>
+    </div>
+
+    <div class="info-block">
+      <h2>Author Style Recreation Using Markov Chains (Spring 2023)</h2>
+      <p>This project took a large text file as input and would output a specified amount of characters
+        into an output file in the likeness of the input text. This was done using markov chains, which
+        look at the last word outputted (prefix) and searches the input text to see what words followed
+        that input word (suffix). It would then choose a word to output by randomly choosing a suffix,
+        weighted by how many times a suffix occurred in the input.
+      </p>
+      <p>
+        As an example: The program reads every word in the input text and marks how often that word appears.
+        It then picks a word from that list randomly, but words that appear more often are more likely to be chosen.
+        Now that a word (prefix) has been chosen and outputted, that word is searched for in the input text and every
+        word that
+        follows (suffix) is marked by how often it appears. Just like before, a word is chosen randomly, weighted by how
+        often it appears in the input text. This continues word after word until a desired word count is met.
+      </p>
+    </div>
+
+
+    <!-- Extra Curricular Projects -->
+    <h2 id="Extra-Curricular-Projects"> Extra Curricular Projects </h2>
+    <p> These projects were outside of college courses but were done for clubs like the Cybersecurity Club and the
+      Collegiate Cyber Defense Competition (CCDC) team.
+    </p>
+
+    <div class="info-block">
+      <h2>2024 CCDC Team Member (Spring 2024)</h2>
+      <p>I competed in the 2024 NECCDC Regional Competition along with 10 other team members and placed on the podium
+        for the first time in school history. My focus for this competition was Linux identity management using FreeIPA.
+        I also did some work with LXC Containers, SSH Hardening, and other general Linux Security Fundamentals.</p>
+      <p><a href="#">CCDC Notes (TODO)</a></p>
+    </div>
+
+
+    <!-- Personal Projects -->
+    <h2 id="Personal-Projects"> Personal Projects </h2>
+    <p>These classes were done outside of employment opportunities and outside of college courses and clubs.
+      They were done out of personal enjoyment and personal education.</p>
+
+    <div class="info-block">
+      <h2>Tor Hidden Service: This Website (Spring 2024)</h2>
+      <p>The Hosting of this website is done as a Tor Hidden Service. I followed a NetworkChuck Tutorial and ran the
+        server on the Raspberry Pi that runs my PiHole and PiVPN.</p>
+      <p>
+        <a href="https://www.youtube.com/watch?v=CurcakgurRE" target="_blank">NetworkChuck Video</a> |
+        <a href="#">Video Notes(TODO)</a>
+      </p>
+    </div>
+
+    <div class="info-block">
+      <h2>Homelab with PiHole and PiVPN (Spring 2024)</h2>
+      <p>I decided to use one of my old Raspberry Pis I had lying around as the DNS for my home network. This allowed me
+        to ad block all traffic, have my own customizable dns, and setup PiVPN for remote access. With VPN access I
+        could start my own personal homelab. I enabled ssh on my pc for remote work and added some remote VS Code
+        Servers.</p>
+      <p>
+        <a href="https://www.youtube.com/watch?v=cE21YjuaB6o" target="_blank">Pihole Video</a> |
+        <a href="https://www.youtube.com/watch?v=Q4zlrc0F4NU&t=1351s" target="_blank">PiVPN Video</a> |
+        <a href="https://www.youtube.com/watch?v=rh1Ag41J6IA" target="_blank">VS Code Server Video</a> |
+        <a href="#" target="_blank">Project Notes (TODO)</a> |
+      </p>
+    </div>
+
+    <div class="info-block">
+      <h2>Building a PC (Winter 2022)</h2>
+      <p>Over winter break I got a bunch of computer parts and built my first PC and dual booted windows for gaming, as
+        well as linux for homework and as a general sandbox.</p>
+      <ul>
+        <li>CPU: AMD Ryzen 5 5600X</li>
+        <li>GPU: Nvidia 2070 Super</li>
+        <li>RAM: 32GB Corsair Vengeance DDR4</li>
+        <li>PSU: Corsair RM 850w </li>
+        <li>DISK: 1TB M.2 & 2TB M.2</li>
+        <li>CASE: Corsair 4000D Airflow</li>
+        <li>MOTHERBOARD: ASUS ROG B550</li>
+      </ul>
+    </div>
+
+
+    <!--
+    <div class="info-block">
+      <h2>Project Name 1 (Date of Project)</h2>
+      <p>Description of Project 1...</p>
+      <p>Example of Project 1...</p>
+      
+      <p><a href="#">Link to Project 1</a></p>
+    </div>
+    -->
+
+  </div>
+</body>
+
+</html>

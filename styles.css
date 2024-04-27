@@ -1,0 +1,133 @@
+:root {
+  /*Global Variables */
+  --blue-main: #0097fc;
+  --global-background: #136775;
+  --container-background: #2c2c2c;
+  --gray-text: #919191;
+  --button-hover: #3b3b3b;
+  --info-hover: #2f2f2f;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--global-background);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--container-background);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: var(--blue-main);
+}
+
+h2 {
+  color: var(--blue-main);
+}
+
+h3 {
+  color: var(--blue-main);
+}
+
+a {
+  color: var(--blue-main);
+}
+
+p {
+  color: var(--gray-text);
+}
+
+hr {
+  color: rgba(255, 255, 255, 0.13), 0.1;
+}
+
+.menu-button {
+  display: inline-block;
+  padding: 2px 2px;
+  background-color: var(--container-background);
+  color: var(--blue-main);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.menu-button:hover {
+  background-color: var(--button-hover);
+}
+
+/* Info Block Styles */
+
+.info-block {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid var(--blue-main);
+  border-radius: 4px;
+}
+
+.info-block h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #7a7a7a;
+}
+
+.info-block p {
+  margin-bottom: 10px;
+  color: var(--gray-text);
+}
+
+.info-block li {
+  color: var(--gray-text);
+}
+
+.info-block a {
+  color: var(--blue-main);
+  text-decoration: none;
+}
+
+.info-block:hover {
+  background-color: var(--info-hover);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--container-background);
+  min-width: 160px;
+  z-index: 1;
+  border-color: var(--button-hover);
+  border-radius: 2px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: var(--blue-main);
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: var(--button-hover);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
