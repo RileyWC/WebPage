@@ -5,35 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Riley's Projects</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="container">
     <h1>Coding Projects</h1>
-
-
-    <!-- Menu Bar with Dropdowns -->
-    <div class="menu-bar">
-      <!-- Home Page Button -->
-      <a href="index.html" class="menu-button">Home</a>
-
-      <!-- Projects Dropdown -->
-      <div class="dropdown">
-        <a href="projects.html" class="menu-button">Projects</a>
-        <div class="dropdown-content">
-          <a href="projects.html#School-Projects" class="menu-button">School</a>
-          <a href="projects.html#Extra-Curricular-Projects" class="menu-button">Extra Curricular</a>
-          <a href="projects.html#Personal-Projects" class="menu-button">Personal</a>
-        </div>
-      </div>
-
-      <!-- Tutorials Button -->
-      <a href="tutorials.html" class="menu-button">Tutorials</a>
-
-      <hr><br>
-    </div>
-
+    
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
 
     <!-- School Projects -->
     <h2 id="School-Projects"> School Projects </h2>

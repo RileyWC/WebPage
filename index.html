@@ -8,58 +8,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Riley's Homepage</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="container">
+  
     <h1>Welcome to My Website!</h1>
+    <hr>
+    <!--Navigation bar
+    <div id="nav-placeholder"></div>
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("segments/nav.html");
+    });
+    </script>
+    end of Navigation bar-->
+
+    <h3>About Me:</h3>
+    <p>
+      Hi, My name is Riley Conners. I am a computer science student at UMass Lowell
+      with an educational focus on data science as well as cybersecurity. I am 
+      currently working towards my master's degree in cybersecurity at UMass Lowell
+      as well. When I am not at school, I like to get outdoors and stay active. I 
+      enjoy running and hiking primarily, but I also love to bike and kayak. Some 
+      of my more leisurely hobbies include playing pool, PC and Raspberry Pi projects,
+      ham radio, and fixing whatever IT/Internet problems my friends and family run 
+      into :)
+    </p>
+
+    <h3>Education:</h3>
+    <!-- TODO: Add more classes when graduated -->
+    <p>
+      I attended the University of Massachusetts Lowell from 2021 to 2025 (expecting) to
+      earn my bachelor's degree in computer science alongside a minor in mathematics. My 
+      educational focus was on cybersecurity and data science, which means I took classes
+      revolving around data communication protocols, computer & network security, 
+      cyber-crime, artificial intelligence, and more. 
+    </p>
+
+    <p>
+      During the completion of my bachelor's degree I participated in many extra 
+      curricular clubs and activities. I spent some time with the Brazilian Jiu Jitsu, 
+      ACM, Robotics, and Cybersecurity Clubs, as well as participated in the Collegiate
+      Cyber Defense Competition (CCDC) in my junior year, where UMass Lowell placed 3rd
+      in the region. I also took part in some of the activities run by the honors college,
+      and I am earning my IC Scholar status by taking intelligence related courses and by
+      attending meetings and presentations outside of class.
+    </p>
+
+    <p>
+      I am currently working towards my master's degree in cybersecurity studies, also
+      at UMass Lowell. This program has classes on cyber crime, systems and network security, 
+      forensics, intrusion detection and auditing, intelligence, designing secure systems, and 
+      cybersecurity's role in national security. I currently plan to earn this degree by the 
+      end of the fall 2025 semester.
+    </p>
 
 
-    <!-- Menu Bar with Dropdowns -->
-    <div class="menu-bar">
-        <!-- Home Page Button -->
-        <a href="index.html" class="menu-button">Home</a>
+    <h3>Projects:</h3>
+    <p>
+      I have completed a fair amount of projects for the coursework during my bachelor's degree
+      which include making a spam email detection algorithm using bayes theorem, using Markov
+      chains to mimic authors' writing styles, making sarcasm detecting models for news headlines, 
+      creating a command line version of airdrop with encryption, and making basic web servers.  
+    </p>
+    <p>
+      Outside of my classes I have completed some personal projects as well. I built my first PC 
+      in 2022 and used it to help with my coursework and other personal projects on my home network.
+      I used Raspberry Pis for most of my personal projects from a PiHole DNS server and ad blocker,
+      to a PiVPN server that let me SSH into my machines from anywhere. I also used a Pi to make a
+      retro gaming console for trips, and one even runs this website as a TOR Hidden Service.
+    </p>
+
+    <h3>Hiking & Running:</h3>
+    <p>
+      For fun I enjoy running and hiking. I have recently run a few marathons and enjoy participating
+      in a local weekly 5k race series in the summer and winter. I also like to do a lot of hiking. 
+      Currently I am visiting the fire towers in New Hampshire, and I plan on doing the 48 4000 footers
+      and 52 with a view locations in NH. I also plan to attempt the Appalachian Trail in the future.
+    </p>
+
+    <!--footer-->
+    <div id="footer-placeholder"></div>
+    <script>
+    $(function(){
+      $("#footer-placeholder").load("segments/footer.html");
+    });
+    </script>
+    <!--end footer-->
 
 
-       <!-- Computers Dropdown -->
-       <div class="dropdown">
-        <a href="#" class="menu-button">Computers</a>
-        <div class="dropdown-content">
-          <a href="projects.html" class="menu-button">Projects</a>
-          <a href="tutorials.html" class="menu-button">Tutorials</a>
-          <a href="college.html" class="menu-button">College</a>
-        </div>
-      </div>
-
-
-        <!-- Hobbies Dropdown -->
-        <div class="dropdown">
-        <a href="#" class="menu-button">Hobbies</a>
-        <div class="dropdown-content">
-          <a href="running.html" class="menu-button">Running</a>
-          <a href="hiking.html" class="menu-button">Hiking</a>
-          <a href="biking.html" class="menu-button">Biking</a>
-          <a href="ham_radio.html" class="menu-button">Ham Radio</a>
-        </div>
-      </div>
-
-
-        <!-- Jobs Dropdown -->
-        <div class="dropdown">
-          <a href="#" class="menu-button">Jobs</a>
-          <div class="dropdown-content">
-            <a href="ara_lab.html" class="menu-button">UML ARA Lab</a>
-            <a href="doble.html" class="menu-button">Doble Engineering</a>
-          </div>
-        </div>
-
-        <hr><br>
-    </div>
-
-    <p>My name is Riley Conners, I am a Computer Science student with an educational focus on Data Science and Cyber
-      Security, as well as a mathematics minor. I am also a member of my college's Cybersecurity Club and the
-      Collegiate Cyber Defense Competition (CCDC) team. </p>
   </div>
 </body>
 
