@@ -39,6 +39,10 @@ h3 {
   color: var(--mid-green);
 }
 
+h4 {
+  color: var(--mid-green);
+}
+
 a {
   color: var(--teal);
 }
