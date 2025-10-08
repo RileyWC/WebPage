@@ -8,11 +8,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Riley's Homepage</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/main.css">
   <meta name="viewport" content="width=1100">
 </head>
 
 <body>
+  <!--Header Menu-->
+  <div id="nav-placeholder"></div>
+
   <!--Body and Portrait-->
   <main class="title_container">
 
@@ -23,13 +26,13 @@
           Hi, I'm Riley — a recent graduate from UMass Lowell who's 
           passionate about cybersecurity, secure communications, and digital defense. 
           I'm actively building my skills and looking for job opportunities to apply my 
-          knowledge while expaning my skillsets. This website serves as an extension of 
+          knowledge while expanding my skill sets. This website serves as an extension of 
           my resume, and a chance for me to share more about myself. Enjoy!
         </p>
       </div>
 
       <!--Portrait-->
-      <div><img src="segments/bodyshot.png" 
+      <div><img src="segments/home/bodyshot.png" 
         style="float:right; height: auto; width: 220px;
         margin: 2rem 0 1rem 2rem; " />
       </div>
@@ -40,13 +43,12 @@
   <section class="green_container">
 
     <h2>Education 👨🏼‍🎓</h2>
-    <div class="edu_column">
-      <!-- Left Column-->
+    <div class="edu">
       <div>
-        <h3>B.S. in Computer Science (May 2025)<br>
-        Cybersecurity & Data Science Concentration <br>
-        University of Massachusetts Lowell <br>
-        Mathematics Minor | 3.818 GPA</h3>
+        <h3>B.S. in Computer Science Cybersecurity & Data Science Concentration (May 2025)<br>
+        
+        University of Massachusetts Lowell | 3.818 GPA<br>
+        Mathematics Minor </h3>
         <p>
           I attended the UMass Lowell from 2021-2025 to
           earn my bachelor's degree in computer science alongside a minor in mathematics. My 
@@ -67,13 +69,12 @@
           <a href="https://www.nationalccdc.org/index.php" target="_blank">here.</a>
         </p>
       </div>
-
-      <!-- Right Column-->
+    </div>
+    <div class="edu">
       <div>
-        <h3>M.S. in Security Studies (Expected December 2025)<br>
-        Cybersecurity Concentration <br>
-        University of Massachusetts Lowell <br>
-        IC Scholar Status Earned |  TBD GPA </h3>
+        <h3>M.S. in Security Studies Cybersecurity Concentration (Expected December 2025) <br>
+        University of Massachusetts Lowell | TBD GPA<br>
+        IC Scholar Status Earned </h3>
 
         <p>
           As a part of the bachelor's to master's program at UMass Lowell, I took classes during
@@ -90,7 +91,6 @@
           <a href="https://www.dni.gov/index.php/iccae" target="_blank">here.</a>
           </p>
       </div>
-      <!-- TODO Insert Relevant coursework table with each class havinga  dropdown description-->
     </div>
   <br><br><br>
   </section>
@@ -101,13 +101,36 @@
     <div class="experience">
       <h3>Cyber Security Intern at Doble Engineering: Marlborough, MA	(Summer 2024)</h3>
       <p>
-        Helped utilities secure the electric grid, as well as advanced grid security research and 
-        knowledge by helping design and develop a smart grid cybersecurity lab. 
+        This internship taught me so much about critical infrastructure security and how important
+        it is to the nation and everyone in it. I learned about NERC CIP and NIST standards in the 
+        industry and took training on different station regulations. I worked on penetration tests
+        and report creation, phishing education campaigns, and software vulnerability notification 
+        software. I watched over, participated in, and sometimes even led the cybersecurity portion
+        of team and customer meetings. I also had the opportunity to attend a local cybersecurity 
+        conference regarding critical infrastructure security, which gave me valuable insight to 
+        security culture, inter-organizational collaboration, and what the private landscape for 
+        cyber looks like. This internship gave me a great introduction to office culture,
+        general professionalism, and customer interactions in a large organization, as well as 
+        industry specific technical terminology and practices.
 
       </p>
     </div>
 
+    <div class="experience">
+      <h3>Associate at Panera Bread	(Full Year 2025)</h3>
+      <p>
+        As a temporary job to make money while I completed my masters degree and trained to hike the 
+        Appalachian Trail, I worked for about a year at a local Panera. While it may not seem relevant
+        to the cybersecurity/tech nature of this site, it gave me a very similar experience to the 
+        CCDC competition and strengthened many of the lessons I learned there. The constant timed 
+        multitasking in the kitchen, drive-thru, and dining room helped me improve at working under
+        pressure without losing my cool, and the customer environment allowed me to expand my communication
+        abilities with people I had just met, which helped for my confidence speaking. While other 
+        opportunities had given me many hard skills for the cybersecurity field, this job gave me 
+        exposure to a ton of soft skills that I am grateful to have learned.
 
+      </p>
+    </div>
 
   <br><br><br>
   </section>
@@ -120,7 +143,7 @@
       <div class="project">
         <h3>Raspberry Pi Retro-Gaming Console (2022)</h3>
         <p>
-          I put Retropi on my raspberry pi to play retro games from the NES and SNES. I got two wireless SNES
+          I put RetroPi on my raspberry pi to play retro games from the NES and SNES. I got two wireless SNES
           controllers with the Pi and kept it in a small bag to use as a portable console for family road trips,
           camping trips, and vacations.This taught me about flashing new operating systems and .iso files, what
           ROMs were, and gave me a love for open sourced projects.
@@ -143,49 +166,95 @@
       <div class="project">
         <h3>Pi-Hole DNS with Ad Blocking and Pi-VPN (2023)</h3>
         <p> After the RetroPi stopped getting use, I decided to use the Raspberry Pi for something new. I saw some 
-        <a href="https://www.youtube.com/@CrosstalkSolutions" target="_blank"> Crosstalk Solutions</a> videod about turning a Pi 
+        <a href="https://www.youtube.com/@CrosstalkSolutions" target="_blank"> Crosstalk Solutions</a> video about turning a Pi 
         into a VPN server and an Ad-Blocking homemade DNS server. After following the tutorials and tweaking the 
         settings to my liking, I had a VPN I could use to SSH into my PC for homework away from home, and faster
-         internet thanks to the DNS blocking ad domains. This taught me about more opensource projects, the DNS
+         internet thanks to the DNS blocking ad domains. This taught me about more open source projects, the DNS
         protocol, VPNs like OpenVPN and Wireguard, and about SSH security.          
       </div>
 
-      <!--TODO WRITE THESE PROJECTS
+      
       <div class="project">
         <h3>Author Recognition and Recreation Using Markov Chains (2023)</h3>
-        <p></p>
+        <p>
+          During my sophomore year in college, I worked on a class project that asked students
+          to learn about markov chains and use them to make a crude program that can mimic 
+          the writing style of authors. The approach I implemented involved tokenizing characters 
+          and then whole words to predict what the next word is likely to be. The algorithm could
+          look back one, two, or "k" words backwards in order to calculate what a likely next word
+          would be. Keeping "k" as a variable allowed the class to explore how different k values
+          affected the coherency of the models.
+        </p>
       </div>
 
       <div class="project">
         <h3>Raspberry Pi Website Hosting with Tor Hidden Services (2024)</h3>
-        <p></p>
+        <p>
+          As a personal project, I decided to use one of my Raspberry Pis as a Tor website server
+          after watching <a target="_blank" href="//youtu.be/tBnJRraXDc0?si=qkKZdSR6eVJZBj0v">this video</a>.
+          I followed the tutorial and run this website at the following onion link: <br>
+          <a>riley5cyufdx3ki75d7ey5kcb4uc4umbuuiu2h6xpgjri3o5dlbn5fyd.onion </a>
+          <br>
+          I went the extra step to customize the beginning of the URL which was also outlined in 
+          the tutorial. NOTE: This link only works in Tor, not the surface web.
+        </p>
       </div>
 
       <div class="project">
-        <h3>Spam Email Detector Using Bayes Theorum (2024)</h3>
-        <p></p>
+        <h3>Spam Email Detector Using Bayes Theorem (2024)</h3>
+        <p>
+        In another class homework assignment I was asked to make a spam email detector using Bayes
+        Theorem. What this did was look at the use of certain words (or phrases depending on token
+        history length) and look at the chances of them being used in spam or valid emails. By the
+        end of the assignments time span the algorithm was around 85% accurate on the test data.
+        </p>
       </div>
 
       <div class="project">
         <h3>Encrypted Airdrop Alternative (2024)</h3>
-        <p></p>
+        <p>
+        For an introduction to computer security class there was a group project where we had to implement
+        a secure version of airdrop that conducted encrypted and secure file sharing through a peer to 
+        peer protocol on a local WAN. This was a semester long project and our group ended the semester 
+        with a presentation going over the different peer classifications, how key sharing and file sharing
+        functioned, and more. 
+        </p>
       </div>
 
       <div class="project">
         <h3>Sarcasm Detection for News Articles (2024- 2025)</h3>
-        <p></p>
+        <p>
+        As a part of a natural language processing group project, our group developed a basic classifier
+        machine learning model to take in text emails and give them a classification of spam or valid
+        emails. In the limited time frame that the homework spanned, we were able to get the model to 
+        roughly 90% accuracy on the test set.
+        </p>
       </div>
 
       <div class="project">
         <h3>Raspberry Pi Minecraft Server with Security (2024 - 2025)</h3>
-        <p>TODO Originally no security, added security, then added automated github uploads.</p>
+        <p>
+          As a fun summer project with friends I decided to use a Raspberry Pi as a hosting platform 
+          for a minecraft server. This was relatively straightforward, but the upkeep of this server 
+          helped me expand my bash script creation knowledge for automation like updating the server
+          and backing up the server to github in case the Pi broke. After about 6 months someone 
+          broke into the server and destroyed much of our creations, and this led me into more
+          security focused improvements like whitelists and firewalls for outside server activity.
+        </p>
       </div>
     
       <div class="project">
         <h3>Personal Website (2023 - Present)</h3>
-        <p></p>
+        <p>
+          This website is one of my longest ongoing personal projects because as I learn new things
+          and gain new interests for more projects, I like to update this site and change the feel of 
+          it. Originally this site was only accessible locally on my home network. Then I learned about 
+          github pages and decided that hosting it there was a great free way to make it accessible. 
+          From there I put the website on a Tor node, updated its layout and information many times, and
+          learned more about Git, Github, HTML, CSS, the Tor protocol, and web servers along the way.
+        </p>
       </div>
-    -->
+
     </div>
   <br><br><br>
   </section>
@@ -213,7 +282,7 @@
     <div class="hobby">
       <h3>Ham Radio 📡</h3>
       <p>
-        This is a new hobby for me so I am not far in the ham radio journey. I have a few baofengs and 
+        This is a new hobby for me so I am not far in the ham radio journey. I have a few Baofeng radios and 
         a ham radio basics study book. I am currently studying for my technicians license.
       </p>
     </div>
@@ -236,7 +305,7 @@
       <h3>Magic the Gathering 🧙🏼</h3>
       <p>
         When my friends and I aren't playing Dungeons & Dragons, we are likely playing Magic the Gathering instead.
-        Right now we play a lot of commander, and I'm excited for the new Spiderman and Avatar: The Last Airbender sets.
+        Right now we play a lot of commander, and I'm excited for the new Spider-Man and Avatar: The Last Airbender sets.
       </p>
       </div>
       </div>
@@ -244,22 +313,22 @@
   </section>
 
   <!--footer-->
-  <footer class="footer">
-    <!--Socials-->
-    <div class="socials">
-      <a href="https://instagram.com/rileyconners555/" target="blank" style="text-decoration: none;">
-        <img src="segments/instagram.png"/>
-      </a>
-      <a href="https://www.linkedin.com/in/riley-conners-136960292/" target="blank" style="text-decoration: none;">
-        <img src="segments/linkedin.png"/>
-      </a>
-      <a href="https://github.com/RileyWC" target="blank" style="text-decoration: none;">
-        <img src="segments/github.png" style="width: 25px;"/>
-      </a>
-    </div>
-    <p style="margin: 10px; vertical-align: middle; float: right;">Last Updated: 07/11/25 </p>
-
-  </footer>
-  
+  <div id="foot-placeholder"></div>
 </body>
+
+<!-- Nav & Footer Include Script-->
+<script>
+  fetch('nav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('nav-placeholder').innerHTML = data;
+    }); 
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('foot-placeholder').innerHTML = data;
+    });
+</script>
+
+
 </html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Posts</title>
+  <link rel="stylesheet" href="styles/social.css">
+</head>
+<body>
+
+  <!--Header Menu-->
+  <div id="nav-placeholder"></div>
+
+  <!-- Post Gallery -->
+  <section class="dark_container">
+    <h1>Social Posts</h1>
+  </section>
+  
+  <div id="gallery" class="gallery"></div>
+  <script src="js/gallery.js"></script>
+  <script>
+    loadGallery("segments/social/rconners/posts.json");
+  </script>
+
+  <!--footer-->
+  <div id="foot-placeholder"></div>
+</body>
+</html>
+
+<!-- Nav & Footer Include Script-->
+<script>
+  fetch('nav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('nav-placeholder').innerHTML = data;
+    }); 
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('foot-placeholder').innerHTML = data;
+    });
+</script>
+
+

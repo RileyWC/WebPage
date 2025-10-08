@@ -1,0 +1,186 @@
+:root {
+  /*Global Variables */
+  --dark-blue: #02353c;
+  --mid-blue: #004447;
+  --text-blue: #c1f6e3;
+  --green: #449342;
+  --teal: #2eaf7d;
+
+  --min-width: 1100px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--teal);
+  min-width: var(--min-width);
+}
+
+/*Title Container*/
+.title_container {
+  background-color: var(--dark-blue);
+  min-width: var(--min-width);
+  display: grid;
+  padding: 20px;
+  align-items: center;
+  grid-template-columns: 75% 20%;
+  gap: 20px;
+}
+
+.title_container p {
+  font-size: 40px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: var(--mid-blue);
+}
+
+.title_container h1 {
+  font-size: 60px;
+  color: var(--green);
+  text-align: center;
+}
+
+
+
+/*Green Container*/
+.green_container {
+  background-color: var(--green);
+  min-width: var(--min-width);
+  display: grid;
+  padding: 20px;
+  align-items: center;
+}
+
+.green_container h2 {
+  color: var(--dark-blue);
+}
+
+
+/*Dark Blue Container*/
+.dark_container {
+ background-color: var(--dark-blue);
+  min-width: var(--min-width);
+  display: grid;
+  padding: 20px;
+  align-items: center;
+}
+
+
+/*Light Blue Container*/
+.light_container {
+  background-color: var(--teal);
+  min-width: var(--min-width);
+  display: grid;
+  padding: 20px;
+  align-items: center;
+}
+
+.light_container h2 {
+  color: var(--dark-blue);
+}
+
+
+/*Education container*/
+.edu {
+  display: grid;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: var(--dark-blue);
+}
+
+
+/*Experience Container*/
+.experience {
+  display: grid;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: var(--dark-blue);
+}
+
+
+/*Projects Container*/
+.project_column {
+  display: grid;
+  align-items: auto;
+  padding: 20px;
+  grid-template-columns: 50% 50%;
+}
+ 
+.project {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--mid-blue);
+  margin: 10px;
+}
+
+
+/*Hobbies Container*/
+.hobby_bars {
+  width: inherit;
+  display: grid;
+  grid-template-columns: 33% 33% 33%; 
+}
+
+.hobby {
+  margin: 10px;
+  background-color: var(--mid-blue);
+  border-radius: 10px;
+}
+
+
+h2 {
+  padding: 5px;
+  align-self: right; 
+  font-size: 45px;
+  color: var(--green);
+}
+
+h3 {
+  padding: 0 10px;
+  align-self: center; 
+  font-size: 30px;
+  color: var(--green);
+}
+
+h4 {
+  color: var(--green);
+}
+
+a {
+  color: var(--teal);
+}
+
+p {
+  padding: 5px;
+  font-size: 20px;
+  color: var(--text-blue);
+  text-align: left;
+}
+
+
+/*Footer Styles*/
+  .footer {
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* full width of parent */
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+
+  .footer img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  .footer socials {
+    height: auto;
+    margin-right: 10px;
+    vertical-align: left
+  }

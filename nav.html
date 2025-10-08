@@ -1,0 +1,88 @@
+ <style>
+    :root {
+    /*Global Variables */
+    --dark-blue: #02353c;
+    --mid-blue: #004447;
+    --text-blue: #c1f6e3;
+    --green: #449342;
+    --teal: #2eaf7d;
+
+    --min-width: 1100px;
+    }
+    
+    /* Dropdown container */
+    .dropdown {
+    position: relative;
+    display: inline-block; /* so it fits content */
+    }
+
+    .menu a{
+      text-decoration: none;
+    }
+
+    .menu hr{
+      border-color: var(--green);
+    }
+
+    /* Dropdown button or link */
+    .dropdown-button {
+    background-color: var(--dark-blue);
+    color: var(--green);
+    font-size: 15px;
+    border-radius: 10%;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--mid-blue);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    flex-direction: column;
+    border-radius: 5px;
+    }
+
+    /* Dropdown links */
+    .dropdown-content a {
+    color: var(--green);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+
+    .dropdown-content a:hover {
+    background-color: var(--dark-blue);
+    }
+
+    /* Show dropdown on hover */
+    .dropdown:hover .dropdown-content {
+    display: block; /* or block */
+    }
+</style>
+
+
+
+
+<!-- Menu Bar with Dropdowns -->
+<section class="dark_container">
+  <div class="menu">
+    <!-- Home Page Button -->
+    <a href="index.html" class="dropdown-button">Home</a>
+
+    <!-- Social Dropdown -->
+      <section class="dropdown">
+        <a href="#" class="dropdown-button">Social</a>
+        <div class="dropdown-content">
+          <a href="rconners.html" class="menu-button">Riley Conners</a>
+          <a href="weight.html" class="menu-button">10lb Weight</a>
+        </div>
+      </section>
+    <hr><br>
+  </div>
+</section>
