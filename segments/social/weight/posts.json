@@ -1,12 +1,194 @@
 [
   {
-    "image": "images/mountain.jpg",
-    "caption": "Sunrise hike in the Whites ☀️",
-    "date": "2025-10-08"
+   "folder": "segments/social/weight/2025-08-14",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" },
+      { "file": "/7.jpg", "type": "image" },
+      { "file": "/8.jpg", "type": "image" },
+      { "file": "/9.jpg", "type": "image" },
+      { "file": "/10.jpg", "type": "image" }
+    ],
+    "caption": "Osceola, East Osceola, and a few new buddies. 2/48 4000 Footers",
+    "date": "Aug 14, 2025"
+  }, 
+   {
+   "folder": "segments/social/weight/2025-07-31",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" },
+      { "file": "/7.jpg", "type": "image" },
+      { "file": "/8.jpg", "type": "image" },
+      { "file": "/9.jpg", "type": "image" }
+    ],
+    "caption": "Can confirm this mountain has blueberries",
+    "date": "Jul 31, 2025"
+  }, 
+  {
+   "folder": "segments/social/weight/2025-07-25",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" },
+      { "file": "/7.jpg", "type": "image" }
+    ],
+    "caption": "Double Feature: Waterfall & Cliff",
+    "date": "Jul 25, 2025"
   },
   {
-    "image": "images/beach.jpg",
-    "caption": "Late summer ocean swim 🌊",
-    "date": "2025-09-22"
+   "folder": "segments/social/weight/2025-07-19",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" },
+      { "file": "/7.jpg", "type": "image" },
+      { "file": "/8.jpg", "type": "image" },
+      { "file": "/9.jpg", "type": "image" }
+    ],
+    "caption": "Baldface Circle Trail. Starting the 52 With a View and Terrifying 25.",
+    "date": "Jul 19, 2025"
+  },
+   {
+   "folder": "segments/social/weight/2024-11-09",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" },
+      { "file": "/7.jpg", "type": "image" }
+    ],
+    "caption": "Green Mtn Firetower",
+    "date": "Nov 09, 2024"
+  },
+    {
+   "folder": "segments/social/weight/2024-09-29",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" },
+      { "file": "/7.jpg", "type": "image" },
+      { "file": "/8.jpg", "type": "image" },
+      { "file": "/9.jpg", "type": "image" }
+    ],
+    "caption": "Pawtuckaway & Blue Job Fire Towers",
+    "date": "Sep 29, 2024"
+  },
+  {
+   "folder": "segments/social/weight/2024-08-26",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" },
+      { "file": "/7.jpg", "type": "image" },
+      { "file": "/8.jpg", "type": "image" },
+      { "file": "/9.jpg", "type": "image" },
+      { "file": "/10.jpg", "type": "image" }
+    ],
+    "caption": "Belknap Mountain",
+    "date": "Aug 26, 2024"
+  },
+    {
+   "folder": "segments/social/weight/2024-08-21",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" },
+      { "file": "/7.jpg", "type": "image" },
+      { "file": "/8.jpg", "type": "image" },
+      { "file": "/9.jpg", "type": "image" }
+    ],
+    "caption": "American Tobacco Trail",
+    "date": "Aug 21, 2024"
+  },
+    {
+   "folder": "segments/social/weight/2024-08-11",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" },
+      { "file": "/7.jpg", "type": "image" },
+      { "file": "/8.jpg", "type": "image" },
+      { "file": "/9.jpg", "type": "image" },
+      { "file": "/10.jpg", "type": "image" }
+    ],
+    "caption": "Monadnock pt 2",
+    "date": "Aug 11, 2024"
+  },
+   {
+   "folder": "segments/social/weight/2024-08-05",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" },
+      { "file": "/7.jpg", "type": "image" },
+      { "file": "/8.jpg", "type": "image" },
+      { "file": "/9.jpg", "type": "image" },
+      { "file": "/10.jpg", "type": "image" }
+    ],
+    "caption": "Monadnock pt 1",
+    "date": "Aug 05, 2024"
+  },
+   {
+   "folder": "segments/social/weight/2024-03-10",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" }
+    ],
+    "caption": "Falls and Tower",
+    "date": "Mar 10, 2024"
+  },
+   {
+   "folder": "segments/social/weight/2023-10-09",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.jpg", "type": "image" }
+    ],
+    "caption": "Mountain and Fire Towers",
+    "date": "Oct 9, 2023"
+  },
+   {
+   "folder": "segments/social/weight/2023-10-08",
+   "media": [
+      { "file": "/1.jpg", "type": "image" }
+    ],
+    "caption": "Monadnock in June",
+    "date": "Oct 8, 2023"
   }
 ]
