@@ -1,5 +1,21 @@
 [
   {
+   "folder": "segments/social/rconners/2025-10-19",
+   "media": [
+      { "file": "/1.jpg", "type": "image" },
+      { "file": "/2.jpg", "type": "image" },
+      { "file": "/3.jpg", "type": "image" },
+      { "file": "/4.jpg", "type": "image" },
+      { "file": "/5.jpg", "type": "image" },
+      { "file": "/6.mov", "type": "video" },
+      { "file": "/7.mov", "type": "video" },
+      { "file": "/8.jpg", "type": "image" },
+      { "file": "/9.jpg", "type": "image" }
+    ],
+    "caption": "Goffstown Pumpkin Regatta",
+    "date": "Oct 19, 2025"
+  }, 
+  {
    "folder": "segments/social/rconners/2025-05-18",
    "media": [
       { "file": "/1.jpg", "type": "image" },
