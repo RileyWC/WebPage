@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<!-- Onion Domain: riley5cyufdx3ki75d7ey5kcb4uc4umbuuiu2h6xpgjri3o5dlbn5fyd.onion -->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riley's Hiking</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <meta name="viewport" content="width=1100">
+</head>
+
+<body>
+  <!--Header Menu-->
+  <div id="nav-placeholder"></div>
+
+  <!--Body and Portrait-->
+  <main class="title_container"></main>
+    <div>
+      <img src="segments/activities/hiking-banner.jpg" style="width: 100%;">
+    </div>
+  </main>
+
+
+  <!--Education-->
+  <section class="green_container">
+
+    <h2>Appalacian Trail ⛰️</h2>
+    <div class="edu">
+      <div>
+        <h3> 2026 Thru-Hike: February 14th - July 9th</h3>
+        <p>
+          After completing my master's degree in December of 2025, I tapered up my cardio training
+           in preparation of an AT thru-hike and set my sights for Valentine's Day. Five Months, 
+           two pairs of shoes, fourteen states, and 2197.7 miles later I had the experience of a lifetime.
+           There were windy, rainy, and snowy days alongside heat waves and cold fronts. I learned
+           how to be alone with my thoughts, that the body can quickly adapt to physical challenges, 
+           and that chipping away at a problem every single day can leave you in a completely new place
+           in a matter of months. I met many lifelong friends along the journey, and many of them showed
+           me great examples of a life well lived. The community on the trail is as mesmerizing as the 
+           views. Hostle owners, shuttle drivers, trail angels, and other hikers made me feel so 
+           grateful to have a supportive group around me. It was truly a life changing experience. I 
+           came out on the other side of Mt. Katahdin with an appreciation for life, nature, and friendship,
+           as well as a desire to make my mark and rejoin the world with focus and vigor.
+        </p>
+        <img src="segments/activities/AT-Banner.png" width="100%">
+      </div>
+    </div>
+
+    <h2>NH 4000 ft Peaks 24/48 🗻</h2>
+    <div class="edu">
+      <div>
+        <h3> 48 4000 Footers of NH: 2025-Present</h3>
+        <p>
+          New Hampshire has 48 peaks above 4000 feet of elevation, each of them with great views. I started
+          chipping away at this list in 2025 with a coworker and friend, where we climbed 3 peaks in a day.
+          When I started the AT, I took as many small detours as I could in order to visit as many 4000 foot 
+          peaks along the trail. This let me reach the halfway point on the list and get up to 24 peaks 
+          completed. Now that I am done the AT, I am looking forward to seeing more peaks and finishing up
+          the list. It's a great way to get a large sample size of tough hikes and great views in NH. 
+        </p>
+      </div>
+    </div>
+
+     <h2>NH 52 with a View 5/52 🌲</h2>
+    <div class="edu">
+      <div>
+        <h3> Rounding Off the Top 100 Spots in NH: 2023-Present</h3>
+        <p>
+          While these spots are not the next highest peaks after the 4000 footers, the 52 with a view list 
+          offers hikes with mountain peaks, waterfall views, and sometimes even a firetower! These spots
+          range in difficulty from simple to very technical. I found out the hard way that this list and the 
+          "Terrifying 25" list are not mutually exclusive 😬. One of my favorite and most visited mountains, 
+          Mt. Monadnock, is on this list and I do my best to visit it every year. This list can easily be mistaken 
+          as an inferior list to the higher 48, but make no mistake. These 52 hikes are worth it!!
+        </p>
+      </div>
+    </div>
+
+     <h2>Maine 4000 ft Peaks 11/14 🌄</h2>
+    <div class="edu">
+      <div>
+        <h3> An Accidental Addition, Another Arrangement of Alpine Apexes: Summer 2026</h3>
+        <p>
+          Originally I had only planned to focus on the 4000 foot peaks in New Hampshire, but when a friend told me
+          that I had the opportunity to hit 11 of the 14 peaks on the Maine 4000 footer list just from the AT, I 
+          acquired a new side quest. I got to see Sugarloaf, Katahdin, Saddleback, The Bigelow's, and more. These peaks
+          encompass my favorite mountain view (Katahdin), gorgeous lake overlooks, and enjoyably challenging rock 
+          scrambles.All I have left to summit are Hamlin Peak, North Brother, and Redington, which I hope to do before 
+          the summer's end.
+        </p>
+      </div>
+    </div>
+    
+  <br><br><br>
+  </section>
+
+   <!--footer-->
+  <div id="foot-placeholder"></div>
+</body>
+
+<!-- Nav & Footer Include Script-->
+<script>
+  fetch('nav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('nav-placeholder').innerHTML = data;
+    }); 
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('foot-placeholder').innerHTML = data;
+    });
+</script>
+
+
+</html>
